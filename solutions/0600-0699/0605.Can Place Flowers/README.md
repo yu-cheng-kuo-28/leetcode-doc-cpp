@@ -61,9 +61,7 @@ public:
                 cnt = 0; // reset count when a flower is found
             }
         }
-
         if (cnt > 0) sum += cnt / 2; // handle the last sequence of zeros
-
         return n <= sum;
     }
 };
