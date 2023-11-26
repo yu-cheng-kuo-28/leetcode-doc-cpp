@@ -69,6 +69,8 @@ public:
     }
 };
 ```
+- TC / SC = O(n) / O(1)
+<br>
 
 <h4>(2) Alternative Solutions</h4>
 <p>Retrieved from <a href="https://github.com/doocs/leetcode/tree/main/solution/0600-0699/0605.Can%20Place%20Flowers">Doocs GitHub Repository</a></p>
