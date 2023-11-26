@@ -6,6 +6,6 @@ For the best solutions, refer to the open source project <a href="https://github
 # List 
 
 - (1) Array
-  - [Easy] 525. Contiguous Array
-  - [Medium] 605. Can Place Flowers
+  - [Easy] 605. Can Place Flowers
+  - [Medium] 525. Contiguous Array
 
