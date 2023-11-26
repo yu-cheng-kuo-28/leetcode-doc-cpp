@@ -33,7 +33,7 @@ public:
 Input: nums = [0, 1, 0, 1, 0, 1] / Output: 6</p>
 
 ```cpp
-// For edge cases
+// For general cases & edge cases
 class Solution {
 public:
     int findMaxLength(vector<int>& nums) {
@@ -52,3 +52,5 @@ public:
         return ans;
     }
 ```
+
+TC / SC = O(n) / O(n)
