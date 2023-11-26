@@ -53,4 +53,4 @@ public:
     }
 ```
 
-TC / SC = O(n) / O(n)
+- TC / SC = O(n) / O(n)
