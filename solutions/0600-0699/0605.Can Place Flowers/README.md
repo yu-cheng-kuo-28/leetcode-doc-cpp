@@ -52,20 +52,21 @@ public:
 <pre style="background-color: #f7f7f7; border: 1px solid #ccc; padding: 10px; overflow: auto; font-family: Consolas, 'Courier New', Courier, monospace;">
 <code>class Solution {
 public:
-    bool canPlaceFlowers(vector&lt;int&gt;& flowerbed, int n) {
+    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
         int cnt = 1, sum = 0; // start with 1 to account for the virtual zero at the start
 
-        for (int i = 0; i &lt; flowerbed.size(); ++i) {
+        for (int i = 0; i < flowerbed.size(); ++i) {
             if (flowerbed[i] == 0) {
                 ++cnt; // increment count of zeros
             } else {
-                if (cnt &gt; 2) sum += (cnt - 1) / 2; // add the number of flowers that can be planted
+                if (cnt > 2) sum += (cnt - 1) / 2; // add the number of flowers that can be planted
                 cnt = 0; // reset count when a flower is found
             }
         }
-        if (cnt &gt; 0) sum += cnt / 2; // handle the last sequence of zeros
 
-        return n &lt;= sum;
+        if (cnt > 0) sum += cnt / 2; // handle the last sequence of zeros
+
+        return n <= sum;
     }
 };
 </code></pre>
