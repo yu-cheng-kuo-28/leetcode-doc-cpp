@@ -19,6 +19,7 @@ Also on me Medium <a href="https://yc-kuo.medium.com/leetcode-605-can-place-flow
 <p>So after considering the general cases, the code looked like:</p>
 
 ```cpp
+// For general cases
 class Solution {
 public:
     bool canPlaceFlowers(vector&lt;int&gt;& flowerbed, int n) {
@@ -50,7 +51,8 @@ public:
 <p>Then, finally we have the solution below.</p>
 
 ```cpp
-<code>class Solution {
+// For general cases & edge cases
+class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
         int cnt = 1, sum = 0; // start with 1 to account for the virtual zero at the start
