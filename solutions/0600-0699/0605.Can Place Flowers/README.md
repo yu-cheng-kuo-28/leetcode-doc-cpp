@@ -1,3 +1,5 @@
+Also on me Medium <a href="https://yc-kuo.medium.com/leetcode-605-can-place-flowers-easy-30c9b1460374">Leetcode : 605. Can Place Flowers (Easy)</a>
+
 <p><strong>Problem:</strong> 605. Can Place Flowers<br>
 <strong>Category:</strong> Array (refer to Grind75)<br>
 <strong>Difficulty:</strong> Easy<br>
@@ -29,7 +31,6 @@ public:
                 cnt = 0; // reset count when a flower is found
             }
         }
-
         return n &lt;= sum;
     }
 };
@@ -58,7 +59,6 @@ public:
                 cnt = 0; // reset count when a flower is found
             }
         }
-
         if (cnt &gt; 0) sum += cnt / 2; // handle the last sequence of zeros
 
         return n &lt;= sum;
