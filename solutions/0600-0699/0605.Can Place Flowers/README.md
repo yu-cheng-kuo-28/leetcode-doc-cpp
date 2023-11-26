@@ -1,14 +1,7 @@
-<h1>Leetcode : 605. Can Place Flowers (Easy)</h1>
-<h2>The Thought Process: From general cases to edge cases</h2>
-<p><strong>Yu-Cheng Kuo</strong></p>
-<p><em>2 min read · 1 day ago</em></p>
-
 <h3>Problem: 605. Can Place Flowers</h3>
 <p><strong>Category:</strong> Array (refer to Grind75)<br>
 <strong>Difficulty:</strong> Easy<br>
 <strong>Language:</strong> C++</p>
-
-<p>Well, I just found my logic was quite different from others, so I decided to write it down and record the thought process. Maybe not the most concise code, but quite straightforward and still competitive in terms of time & space complexity.</p>
 
 <h4>(1) Thought Process</h4>
 <h5>1–1 General Cases</h5>
