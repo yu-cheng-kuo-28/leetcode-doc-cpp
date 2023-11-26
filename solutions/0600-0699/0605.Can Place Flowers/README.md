@@ -87,4 +87,5 @@ public:
     }
 };
 ```
+
 <p>I couldn’t figure it out at the first glance, just too complicated.</p>
