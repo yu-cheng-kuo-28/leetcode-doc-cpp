@@ -18,8 +18,8 @@ Also on me Medium <a href="https://yc-kuo.medium.com/leetcode-605-can-place-flow
 </ul>
 <p>So after considering the general cases, the code looked like:</p>
 
-<pre style="background-color: #f7f7f7; border: 1px solid #ccc; padding: 10px; overflow: auto; font-family: Consolas, 'Courier New', Courier, monospace;">
-<code>class Solution {
+```cpp
+class Solution {
 public:
     bool canPlaceFlowers(vector&lt;int&gt;& flowerbed, int n) {
         int cnt = 1, sum = 0; // start with 1 to account for the virtual zero at the start
@@ -36,7 +36,7 @@ public:
         return n &lt;= sum;
     }
 };
-</code></pre>
+```
 
 <h5>1–2 Edge Cases</h5>
 <p>Now, let’s move on to cases like [0, 0, 1, …] & […, 1, 0, 0], we have:</p>
@@ -66,11 +66,12 @@ public:
         return n <= sum;
     }
 };
+```
 
 <h4>(2) Alternative Solutions</h4>
 <p>Retrieved from <a href="https://github.com/doocs/leetcode/tree/main/solution/0600-0699/0605.Can%20Place%20Flowers">Doocs GitHub Repository</a></p>
-<pre style="background-color: #f7f7f7; border: 1px solid #ccc; padding: 10px; overflow: auto; font-family: Consolas, 'Courier New', Courier, monospace;">
-<code>class Solution {
+```cpp
+class Solution {
 public:
     bool canPlaceFlowers(vector&lt;int&gt;& flowerbed, int n) {
         int m = flowerbed.size();
@@ -85,5 +86,5 @@ public:
         return n &lt;= 0;
     }
 };
-</code></pre>
+```
 <p>I couldn’t figure it out at the first glance, just too complicated.</p>
