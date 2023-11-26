@@ -1,4 +1,4 @@
-<p><strong>Problem:</strong>605. Can Place Flowers<br>
+<p><strong>Problem:</strong> 605. Can Place Flowers<br>
 <strong>Category:</strong> Array (refer to Grind75)<br>
 <strong>Difficulty:</strong> Easy<br>
 <strong>Language:</strong> C++</p>
