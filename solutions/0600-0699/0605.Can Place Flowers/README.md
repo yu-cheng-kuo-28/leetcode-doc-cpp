@@ -54,7 +54,6 @@ public:
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
         int cnt = 1, sum = 0; // start with 1 to account for the virtual zero at the start
-
         for (int i = 0; i < flowerbed.size(); ++i) {
             if (flowerbed[i] == 0) {
                 ++cnt; // increment count of zeros
