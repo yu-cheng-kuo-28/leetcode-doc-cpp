@@ -7,6 +7,6 @@ For the best solutions, refer to the open source project <a href="https://github
 ### List 
 
 - (1) Array
-  - [Easy] 605. Can Place Flowers
-  - [Medium] 525. Contiguous Array
+  - [Easy] 605. Can Place Flowers | TC/SC = O(n) / O(1)
+  - [Medium] 525. Contiguous Array | TC/SC = O(n) / O(n)
 
