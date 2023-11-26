@@ -48,7 +48,8 @@ public:
   <li>Five 0s => 2 flowers</li>
 </ul>
 <p>Then, finally we have the solution below.</p>
-<pre style="background-color: #f7f7f7; border: 1px solid #ccc; padding: 10px; overflow: auto; font-family: Consolas, 'Courier New', Courier, monospace;">
+
+```cpp
 <code>class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -65,7 +66,6 @@ public:
         return n <= sum;
     }
 };
-</code></pre>
 
 <h4>(2) Alternative Solutions</h4>
 <p>Retrieved from <a href="https://github.com/doocs/leetcode/tree/main/solution/0600-0699/0605.Can%20Place%20Flowers">Doocs GitHub Repository</a></p>
