@@ -33,7 +33,6 @@ public:
             }
         }
         if (cnt &gt; 0) sum += cnt / 2; // handle the last sequence of zeros
-
         return n &lt;= sum;
     }
 };
