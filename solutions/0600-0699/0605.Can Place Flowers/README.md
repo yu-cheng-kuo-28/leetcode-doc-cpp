@@ -19,11 +19,10 @@ Also on me Medium <a href="https://yc-kuo.medium.com/leetcode-605-can-place-flow
 <p>So after considering the general cases, the code looked like:</p>
 
 <pre style="background-color: #f7f7f7; border: 1px solid #ccc; padding: 10px; overflow: auto; font-family: Consolas, 'Courier New', Courier, monospace;">
-<code>// Code for the general cases only! Not considering the edge cases!
-class Solution {
+<code>class Solution {
 public:
     bool canPlaceFlowers(vector&lt;int&gt;& flowerbed, int n) {
-        int cnt = 0, sum = 0;
+        int cnt = 1, sum = 0; // start with 1 to account for the virtual zero at the start
 
         for (int i = 0; i &lt; flowerbed.size(); ++i) {
             if (flowerbed[i] == 0) {
@@ -33,6 +32,8 @@ public:
                 cnt = 0; // reset count when a flower is found
             }
         }
+        if (cnt &gt; 0) sum += cnt / 2; // handle the last sequence of zeros
+
         return n &lt;= sum;
     }
 };
