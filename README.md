@@ -11,4 +11,4 @@ For the best solutions, refer to the open source project <a href="https://github
   - [Medium] 525. Contiguous Array  ||  TC / SC = O(n) / O(n)
 
 - (2) DP (Dynamic Programming)
-  - [Medium] Flower Bouquets [Not on LeetCode] || [Link](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods) || TC / SC = O(n) / O(n)
+  - [Medium] Flower Bouquets (Not on LeetCode) || [Link](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods) || TC / SC = O(n) / O(n)
