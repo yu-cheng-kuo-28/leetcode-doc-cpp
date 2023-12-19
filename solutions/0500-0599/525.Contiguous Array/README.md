@@ -3,6 +3,10 @@
 <strong>Difficulty:</strong> Medium<br>
 <strong>Language:</strong> C++</p>
 
+TC / SC = O(n) / O(n)
+
+<br>
+
 <h3>(1) Thought Process</h3>
 <h4>1–1 General Cases</h4>
 <p>Input: nums = [1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1] / Output: 6<br>

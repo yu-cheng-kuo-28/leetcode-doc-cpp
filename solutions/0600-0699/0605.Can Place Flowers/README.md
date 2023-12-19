@@ -5,6 +5,10 @@ Also on me Medium <a href="https://yc-kuo.medium.com/leetcode-605-can-place-flow
 <strong>Difficulty:</strong> Easy<br>
 <strong>Language:</strong> C++</p>
 
+TC / SC = O(n) / O(1)
+
+<br>
+
 <h4>(1) Thought Process</h4>
 <h5>1–1 General Cases</h5>
 <p>For 0’s in a row like […, 1, 0, 0, 0, 1, …], we have:</p>
