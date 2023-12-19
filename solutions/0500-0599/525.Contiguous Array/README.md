@@ -1,5 +1,5 @@
-<p><strong>Problem: 525. Contiguous Array<br>
-<strong>Category:</strong> Array (refer to Grind75)<br>
+<p><strong>Problem: [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)<br>
+<strong>Category:</strong> Array<br>
 <strong>Difficulty:</strong> Medium<br>
 <strong>Language:</strong> C++</p>
 
