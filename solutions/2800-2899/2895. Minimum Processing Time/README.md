@@ -3,11 +3,9 @@
 <strong>Difficulty:</strong> Medium <br>
 <strong>Language:</strong> C++ </p>
 
-[1] Time Complexity: O(N log N + M log M + P)
+TC/ SC = O(N log N) / O(log N)
 
-[2] Space Complexity: O(log N + log M)
-
-Where N is the size of processorTime, M is the size of tasks, and P is the number of processors (size of processorTime) 
+Where N is the size of tasks
 
 <br>
 

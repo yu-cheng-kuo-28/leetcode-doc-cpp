@@ -9,7 +9,7 @@ For the best solutions, refer to the open source project <a href="https://github
 - (1) Array
   - [Easy] 605. Can Place Flowers  ||  TC / SC = O(n) / O(1)
   - [Medium] 525. Contiguous Array  ||  TC / SC = O(n) / O(n)
-  - [Medium] 2895. Minimum Processing Time  ||  TC / SC = O(N log N + M log M + P) / O(log N + log M)
+  - [Medium] 2895. Minimum Processing Time  ||  TC/ SC = O(N log N) / O(log N)
 
 - (2) DP (Dynamic Programming)
   - [Medium] Flower Bouquets || (Not on LeetCode!) [Link](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods) || TC / SC = O(n) / O(n)
