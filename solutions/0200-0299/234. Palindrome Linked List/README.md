@@ -11,6 +11,10 @@ TC / SC = O(n) / O(1)
 
 <p>The code can be divided into 3 parts, and this problem is related to 3 previous LeetCode problems (problem 141, 876, 206) on <a href="https://www.techinterviewhandbook.org/grind75">Grind75</a> <br>
 
+<div class="flexible-container">
+  <img src="pic/01_the_linked_list_problems.png" height="450">
+</div>
+
 ```cpp
 class Solution {
 public:
