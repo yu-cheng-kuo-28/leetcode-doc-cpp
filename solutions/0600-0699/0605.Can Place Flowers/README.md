@@ -1,6 +1,6 @@
 Also on me Medium <a href="https://yc-kuo.medium.com/leetcode-605-can-place-flowers-easy-30c9b1460374">Leetcode : 605. Can Place Flowers (Easy)</a>
 
-<p><strong>Problem:</strong> [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)<br>
+<p><strong>Problem: <a href="https://leetcode.com/problems/can-place-flowers/">605. Can Place Flowers</a> </strong><br>
 <strong>Category:</strong> Array<br>
 <strong>Difficulty:</strong> Easy<br>
 <strong>Language:</strong> C++</p>

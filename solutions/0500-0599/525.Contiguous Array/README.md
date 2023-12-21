@@ -1,4 +1,5 @@
-<p><strong>Problem: [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)<br>
+<p><strong>Problem: <a href="https://leetcode.com/problems/contiguous-array/">525. Contiguous Array</a> </strong><br>
+
 <strong>Category:</strong> Array<br>
 <strong>Difficulty:</strong> Medium<br>
 <strong>Language:</strong> C++</p>

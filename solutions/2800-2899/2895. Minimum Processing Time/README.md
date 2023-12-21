@@ -1,4 +1,4 @@
-<p><strong>Problem:</strong> [2895. Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time/)<br>
+<p><strong>Problem: <a href="https://leetcode.com/problems/minimum-processing-time/">2895. Minimum Processing Time</a> </strong><br>
 <strong>Category:</strong> Array <br>
 <strong>Difficulty:</strong> Medium <br>
 <strong>Language:</strong> C++ </p>

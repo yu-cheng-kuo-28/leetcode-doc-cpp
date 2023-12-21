@@ -1,4 +1,4 @@
-<p><strong>Problem: [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) <br>
+<p><strong>Problem: <a href="https://leetcode.com/problems/palindrome-linked-list/description/">234. Palindrome Linked List</a> </strong><br>
 <strong>Category:</strong> Linked List<br>
 <strong>Difficulty:</strong> Easy<br>
 <strong>Language:</strong> C++</p>
