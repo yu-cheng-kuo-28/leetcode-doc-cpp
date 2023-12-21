@@ -3,7 +3,7 @@
 <strong>Difficulty:</strong> Easy<br>
 <strong>Language:</strong> C++</p>
 
-TC / SC = O(n) / O(1)
+TC / SC = O(n) / O(1) 
 
 <br>
 
