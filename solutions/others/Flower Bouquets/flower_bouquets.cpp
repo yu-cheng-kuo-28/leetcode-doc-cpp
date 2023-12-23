@@ -10,7 +10,7 @@ int flowerBouquets(int p, int q, const string& s) {
 
     for (int i = 1; i <= n; ++i) {
         // Always take the previous state's profit
-        dp[i] = dp[i - 1];
+        dp[i] = max(dp[i], dp[i - 1]);
 
         // Check for a bouquet of three roses
         if (i >= 3 && s.substr(i - 3, 3) == "000") {
