@@ -9,7 +9,10 @@ TC / SC = O(n) / O(n)
 
 This is not a LeetCode problem. It's a problem I encountered at a OA of a big tech. 
 
-Link to Flower Bouquets: [Here](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods)
+Link to source of the problem Flower Bouquets: [Here](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods)
+
+Link to my blog on Medium of Flower Bouquets: [LeetCode: ???. Flower Bouquets](https://yc-kuo.medium.com/leetcode-flower-bouquets-b201b5ee4d2e)
+
 
 <div class="flexible-container">
   <img src="pic/01_flower_bouquets_problem.png" height="890">
