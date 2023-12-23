@@ -12,11 +12,11 @@ This is not a LeetCode problem. It's a problem I encountered at a OA of a big te
 Link to Flower Bouquets: [Here](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods)
 
 <div class="flexible-container">
-  <img src="pic/01_flower_bouquets_problem.png" height="590">
+  <img src="pic/01_flower_bouquets_problem.png" height="690">
 </div>
 
 ---
-
+<br>
 
 ### (0) Warm-Up
 Let's take 122. Best Time to Buy and Sell Stock II for example to get a bit warm up before moving forward to problem Flower Bouquets.
@@ -41,7 +41,7 @@ public:
 };
 ```
 ---
-
+<br>
 
 ### (1) Solution
 Let's take 122. Best Time to Buy and Sell Stock II for example to get a bit warm up before moving forward to problem Flower Bouquets.
@@ -177,7 +177,7 @@ Max of dp[9] = 12
 Throughout the process, we see that the max() function is essetial. And the incorect solution without the max() function is doomed to fail.
 
 ---
-
+<br>
 
 ### (2) References
 
