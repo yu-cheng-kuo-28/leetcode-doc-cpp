@@ -43,8 +43,8 @@ void testCases() {
     // Single Bouquet Type 2
     assert(flowerBouquets(2, 20, "01") == 20);
 
-    // Multiple Bouquets
-    assert(flowerBouquets(5, 6, "000111000") == 12); // Two type 1 and one type 2
+    // No Profitable Bouquets
+    assert(flowerBouquets(10, 20, "111") == 0); // No bouquets can be formed
 
     // Alternating Flowers
     assert(flowerBouquets(4, 5, "0101010101") == 25); // Five type 2 bouquets
@@ -52,8 +52,8 @@ void testCases() {
     // Large Garden
     assert(flowerBouquets(3, 8, "000100010001000100010001") == 57); // Four type 2 bouquets
 
-    // No Profitable Bouquets
-    assert(flowerBouquets(10, 20, "111") == 0); // No bouquets can be formed
+    // Multiple Bouquets
+    assert(flowerBouquets(5, 6, "000111000") == 12); // Two type 1 and one type 2
 
     cout << "All test cases passed!" << endl;
 }
