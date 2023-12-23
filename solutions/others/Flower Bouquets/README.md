@@ -12,7 +12,7 @@ This is not a LeetCode problem. It's a problem I encountered at a OA of a big te
 Link to Flower Bouquets: [Here](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods)
 
 <div class="flexible-container">
-  <img src="pic/01_flower_bouquets_problem.png" height="790">
+  <img src="pic/01_flower_bouquets_problem.png" height="890">
 </div>
 
 ---
