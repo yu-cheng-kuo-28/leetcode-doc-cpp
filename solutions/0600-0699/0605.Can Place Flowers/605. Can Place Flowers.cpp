@@ -1,3 +1,4 @@
+// For general cases & edge cases
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -7,12 +8,12 @@ public:
             if (flowerbed[i] == 0) {
                 ++cnt; // increment count of zeros
             } else {
-                if (cnt > 2) sum += (cnt - 1) / 2; // add the number of flowers that can be planted
+                if (cnt > 2) sum += (cnt - 1) >> 1; // add the number of flowers that can be planted
                 cnt = 0; // reset count when a flower is found
             }
         }
 
-        if (cnt > 0) sum += cnt / 2; // handle the last sequence of zeros
+        if (cnt > 0) sum += cnt >> 1; // handle the last sequence of zeros
 
         return n <= sum;
     }
