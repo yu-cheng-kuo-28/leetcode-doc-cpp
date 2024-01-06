@@ -7,7 +7,7 @@ TC / SC = O(n) / O(n)
 
 <br>
 
-This is not a LeetCode problem. It's a problem I encountered at a OA of a big tech. 
+This is not a LeetCode problem. It's a problem I encountered at an OA of a big tech. 
 
 Link to source of the problem Flower Bouquets: [Here](https://leetcode.com/discuss/interview-question/365425/coinlist-oa-2019-nuclear-rods)
 
