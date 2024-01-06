@@ -13,7 +13,7 @@ public:
             }
         }
 
-        if (cnt > 0) sum += cnt >> 1; // handle the last sequence of zeros
+        if (cnt > 0) sum += (cnt >> 1); // handle the last sequence of zeros
 
         return n <= sum;
     }
