@@ -3,7 +3,7 @@
 <strong>Difficulty:</strong> Medium <br>
 <strong>Language:</strong> C++ </p>
 
-TC/ SC = O(N log N) / O(log N)
+TC/ SC = O(NlogN) / O(logN)
 
 Where N is the size of tasks
 
