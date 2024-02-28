@@ -22,7 +22,7 @@ Link to my blog on Medium of Flower Bouquets: [LeetCode: ???. Flower Bouquets](h
 <br>
 
 ### (0) Warm-Up
-Let's take 122. Best Time to Buy and Sell Stock II for example to get a bit warm up before moving forward to problem Flower Bouquets.
+Let's take *122. Best Time to Buy and Sell Stock II* for example to get a bit warm up of DP before moving forward to problem Flower Bouquets.
 ```cpp
 class Solution {
 public:
@@ -43,11 +43,13 @@ public:
     }
 };
 ```
+
+Then, take the LeetCode problem *3042. Count Prefix and Suffix Pairs I* as a practice for string manipulation.
+
 ---
 <br>
 
 ### (1) Solution
-Let's take 122. Best Time to Buy and Sell Stock II for example to get a bit warm up before moving forward to problem Flower Bouquets.
 
 ```cpp
 #include <iostream>
