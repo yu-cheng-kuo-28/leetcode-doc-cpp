@@ -2,12 +2,6 @@ class Solution {
 public:
     int minimumCost(vector<int>& nums) {
 
-        unordered_map<int, int> m;
-
-        for (int& num : nums) {
-            ++m[num];
-        }
-
         int k = nums[0];
         sort(nums.begin(), nums.end());
 
