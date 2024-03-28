@@ -1,14 +1,13 @@
 class Solution {
 public:
     int minimumCost(vector<int>& nums) {
-        
+
         unordered_map<int, int> m;
-        int nums_size = nums.size();
-        
-        for (int i = 0; i < nums_size; ++i) {
-            m[nums[i]]++;
+
+        for (int& num : nums) {
+            ++m[num];
         }
-            
+
         int k = nums[0];
         sort(nums.begin(), nums.end());
 
