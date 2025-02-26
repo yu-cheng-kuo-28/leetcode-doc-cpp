@@ -42,3 +42,8 @@ public:
     return -1;
     }
 };
+
+/*
+This is one of the most fundamental forms of BFS, 
+finding the shortest distance from the start point to the end point.t
+*/
