@@ -4,7 +4,7 @@ Solutions that are straightforward and share roughly the same time and space com
 For the best solutions, refer to the open source project <a href="https://github.com/doocs/leetcode/tree/main/solution">leetcode by doocs on GitHub</a>. You may also refer to <a href="https://neetcode.io/">NeetCode</a> for a roadmap and <a href="https://www.techinterviewhandbook.org/grind75">Grind75</a> for guidance on learning LeetCode smoothly.
 <br><br>
 
-### List 
+### List of Solution by ID [To Be Reconstructed]
 
 - (1) Array
   - [Easy] [605. Can Place Flowers](https://github.com/yu-cheng-kuo-28/leetcode-doc-cpp/tree/main/solutions/0600-0699/0605.Can%20Place%20Flowers)  ||  TC / SC = O(n) / O(1)

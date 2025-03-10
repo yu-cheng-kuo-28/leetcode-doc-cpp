@@ -15,8 +15,8 @@ public:
                 if (grid[i][j] == '*') {
                     q.push({i, j});
                     grid[i][j] = 'X';
-                    found = 1;
-                    break;
+                    found = 1; 
+                    break; // Need to leave the nested for loop
                 }
             }
         }
@@ -24,7 +24,7 @@ public:
         int length = 0;
         while (!q.empty()) {
             ++length;
-            for (int i = q.size(); i; --i) { // cf. i / ~i
+            for (int i = q.size(); i > 0; --i) { // cf. i / ~i
                 auto [a, b] = q.front();
                 q.pop();
                 for (int k = 0; k < 4; ++k) {
@@ -39,6 +39,7 @@ public:
                 }
             }
         }
+    
     return -1;
     }
 };
