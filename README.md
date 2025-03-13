@@ -4,7 +4,32 @@ Solutions that are straightforward and share roughly the same time and space com
 For the best solutions, refer to the open source project <a href="https://github.com/doocs/leetcode/tree/main/solution">leetcode by doocs on GitHub</a>. You may also refer to <a href="https://neetcode.io/">NeetCode</a> for a roadmap and <a href="https://www.techinterviewhandbook.org/grind75">Grind75</a> for guidance on learning LeetCode smoothly.
 <br><br>
 
-### List of Solution by ID [To Be Reconstructed]
+### 1. List of Solution by Category
+
+- (1) Array
+
+- (2) BFS
+  -  1631. Path With Minimum Effort
+  -  1730. Shortest Path to Get Food
+  -  1926. Nearest Exit from Entrance in Maze
+
+- (3) DFS
+  -  200. Number of Islands
+  -  695. Max Area of Island
+  -  841. Keys and Rooms
+  -  1020. Number of Enclaves
+
+- (4) LIS (Longest Increasing Sequence)
+  -  300. Longest Increasing Subsequence
+
+- (5) Permutation (w. DFS)
+  -  31. Next Permutation
+  -  46. Permutations
+
+- (6) Priority Queue (heap)
+  -  215. Kth Largest Element in an Array
+
+### 2. List of Solution by ID [To Be Reconstructed]
 
 - (1) Array
   - [Easy] [605. Can Place Flowers](https://github.com/yu-cheng-kuo-28/leetcode-doc-cpp/tree/main/solutions/0600-0699/0605.Can%20Place%20Flowers)  ||  TC / SC = O(n) / O(1)
