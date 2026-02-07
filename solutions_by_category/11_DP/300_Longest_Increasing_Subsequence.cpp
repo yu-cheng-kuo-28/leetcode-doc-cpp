@@ -1,7 +1,11 @@
 /*
-300. Longest Increasing Subsequence
+[Medium] 300. Longest Increasing Subsequence
 https://leetcode.com/problems/longest-increasing-subsequence/description/
 */
+
+#include <vector>
+#include <algorithm>
+using namespace std;
 
 class Solution {
 public:

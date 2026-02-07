@@ -3,6 +3,10 @@
 https://leetcode.com/problems/permutations/
 */
 
+#include <vector>
+#include <functional>
+using namespace std;
+
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {

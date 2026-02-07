@@ -9,6 +9,10 @@ https://leetcode.com/problems/next-permutation/
 1 9 4 8 5 5 7 4 4 3 2 1 
 1 9 4 8 5 5 1 2 3 4 4 7
 */
+
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {

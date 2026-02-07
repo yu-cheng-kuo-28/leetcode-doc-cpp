@@ -1,15 +1,19 @@
 /*
-1631. Path With Minimum Effort
+[Medium] 1631. Path With Minimum Effort
+- BFS + Bibary Search
 https://leetcode.com/problems/path-with-minimum-effort/
 */
 /*
-BFS + Bibary Search
-
-cf. 1730. Shortest Path to Get Food
+cf. 
+[Medium] 1730. Shortest Path to Get Food
 https://leetcode.com/problems/shortest-path-to-get-food/
 
 It's straighforward to ask why can't this problem be solved by the same appraoch of 1730.?
 */
+
+#include <vector>
+#include <queue>
+using namespace std;
 
 class Solution {
 public:
@@ -88,5 +92,5 @@ public:
 };
 
 /*
-I encountered a problem similar to this one at an OA of a big tech
+I encountered a similar problem at an OA of a big tech
 */

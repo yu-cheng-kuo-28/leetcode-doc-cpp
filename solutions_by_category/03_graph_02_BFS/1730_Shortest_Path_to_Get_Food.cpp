@@ -1,12 +1,20 @@
 /*
-1730. Shortest Path to Get Food
+[Medium] 1730. Shortest Path to Get Food
 https://leetcode.com/problems/shortest-path-to-get-food/
 */
+
+#include <vector>
+#include <queue>
+using namespace std;
+
+using pii = pair<int, int>;
+
 class Solution {
 public:
     int getFood(vector<vector<char>>& grid) {
-        int m = grid.size(), n = grid[0].size();
-        using pii = pair<int, int>;
+        int m = grid.size();
+        int n = grid[0].size();
+
         int dirs[5] = {-1, 0, 1, 0, -1};
         queue<pii> q;
 
@@ -24,14 +32,19 @@ public:
         int length = 0;
         while (!q.empty()) {
             ++length;
+            //! Note the design here, one more for loop for q.size() times
             for (int i = q.size(); i > 0; --i) { // cf. i / ~i
                 auto [a, b] = q.front();
                 q.pop();
                 for (int k = 0; k < 4; ++k) {
                     int x = a + dirs[k];
                     int y = b + dirs[k + 1];
-                    if (x < 0 || x >= m || y < 0 || y >= n) continue;
-                    if (grid[x][y] == '#') return length;
+                    if (x < 0 || x >= m || y < 0 || y >= n) {
+                        continue;
+                    }
+                    if (grid[x][y] == '#') {
+                        return length;
+                    }
                     if (grid[x][y] == 'O') {
                         q.push({x, y});
                         grid[x][y] = 'X';

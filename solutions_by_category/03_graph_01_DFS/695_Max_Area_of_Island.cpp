@@ -1,11 +1,17 @@
 /*
-695. Max Area of Island
+[Medium] 695. Max Area of Island
 https://leetcode.com/problems/max-area-of-island/
 */
+
+#include <vector>
+#include <functional>
+using namespace std;
+
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
-        int m = grid.size(), n = grid[0].size();
+        int m = grid.size();
+        int n = grid[0].size();
         int area_max = 0;
         int area_temp = 0;
         int dirs[5] = {-1, 0, 1, 0, -1};
