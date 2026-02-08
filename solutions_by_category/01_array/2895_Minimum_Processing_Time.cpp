@@ -1,3 +1,13 @@
+/*
+[Medium]
+2895. Minimum Processing Time
+https://leetcode.com/problems/minimum-processing-time/description/
+*/
+
+#include <vector>
+#include <algorithm>
+using namespace std;
+
 class Solution {
 public:
     int minProcessingTime(vector<int>& processorTime, vector<int>& tasks) {

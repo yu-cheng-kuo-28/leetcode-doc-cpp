@@ -1,4 +1,12 @@
-// For general cases & edge cases
+/*
+[Easy]
+605. Can Place Flowers
+https://leetcode.com/problems/can-place-flowers/description/
+*/
+
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
