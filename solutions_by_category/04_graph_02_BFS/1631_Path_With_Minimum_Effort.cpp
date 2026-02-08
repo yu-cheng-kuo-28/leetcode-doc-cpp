@@ -1,11 +1,13 @@
 /*
-[Medium] 1631. Path With Minimum Effort
+[Medium] 
+1631. Path With Minimum Effort
 - BFS + Bibary Search
 https://leetcode.com/problems/path-with-minimum-effort/
 */
 /*
 cf. 
-[Medium] 1730. Shortest Path to Get Food
+[Medium] 
+1730. Shortest Path to Get Food
 https://leetcode.com/problems/shortest-path-to-get-food/
 
 It's straighforward to ask why can't this problem be solved by the same appraoch of 1730.?
