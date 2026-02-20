@@ -17,21 +17,19 @@ It's straighforward to ask why can't this problem be solved by the same appraoch
 #include <queue>
 using namespace std;
 
+using pii = pair<int, int>;
+
 class Solution {
 public:
-
-    bool canReachWithEffort(const vector<vector<int>>& heights, int k) {
-
+    bool canReachWithEffort(const vector<vector<int>>& heights, int effort) {
         int m = heights.size();
         int n = heights[0].size();
 
         vector<vector<bool>> visited(m, vector<bool>(n, false));
-
         // vector<int> directions = {-1, 0, 1, 0, -1, 0};
         int dirs[5] = {-1, 0, 1, 0, -1};
 
         // BFS 
-        using pii = pair<int, int>;
         queue<pii> q;
         q.push({0, 0});
         visited[0][0] = true;
@@ -39,7 +37,6 @@ public:
         while (!q.empty()) {
             auto [x, y] = q.front();
             q.pop();
-
             if (x == (m - 1) && y == (n - 1)) {
                 return true;
             }
@@ -48,7 +45,7 @@ public:
                 int a = x + dirs[i];
                 int b = y + dirs[i + 1];
                 if (a >= 0 && a < m && b >= 0 && b < n && !visited[a][b]) {
-                    if (abs(heights[x][y] - heights[a][b]) <= k) {
+                    if (abs(heights[x][y] - heights[a][b]) <= effort) {
                         visited[a][b] = true;
                         q.push({a, b});
                     }
@@ -59,19 +56,20 @@ public:
         return false;
     }
     
-
+    //! Original only this member function
     int minimumEffortPath(vector<vector<int>>& heights) {
 
         int m = heights.size();
         int n = heights[0].size();
         int l = 0, r = 0;
 
+        // The maximum adjacent height difference in the grid
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {
-                if (i + 1 < m) {
+                if (i < m - 1) {
                     r = max(r, abs(heights[i][j] - heights[i + 1][j]));
                 }
-                if (j + 1 < n) {
+                if (j < n - 1) {
                     r = max(r, abs(heights[i][j] - heights[i][j + 1]));
                 }
             }
@@ -80,9 +78,10 @@ public:
         int result = r;
         
         while (l <= r) {
-            int mid = l + ((r - l) >> 1);
+            int mid = (l + r) >> 1;
+            // int mid = l + ((r - l) >> 1);
             if (canReachWithEffort(heights, mid)) {
-                result = mid; // So (l <= r) instead of (l < r)
+                result = mid; // So it's (l <= r) instead of (l < r)
                 r = mid - 1;
             } else {
                 l = mid + 1;

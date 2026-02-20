@@ -30,7 +30,7 @@ public:
             for (int j = i; j < n; ++j) {
                 combination.push_back(candidates[j]);
                 dfs(j, sum - candidates[j]);
-                combination.pop_back();
+                combination.pop_back(); // backtracking
             }
         };
         dfs(0, target);

@@ -23,7 +23,7 @@ public:
                 allCombinations.push_back(combination);
                 return;
             }
-            if (i >= n || sum < candidates[i]) {
+            if (i >= n || sum < candidates[i]) { // Difference!
                 return;
             }
             for (int j = i; j < n; ++j) {
@@ -32,7 +32,7 @@ public:
                     continue;
                 }
                 combination.push_back(candidates[j]);
-                dfs(j + 1, sum - candidates[j]);
+                dfs(j + 1, sum - candidates[j]); // The main difference lies here! (cf. 39. Combination Sum)
                 combination.pop_back();
             }
         };
