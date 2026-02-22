@@ -14,7 +14,7 @@ public:
     vector<long long> mergeAdjacent(vector<int>& nums) {
         bool isEqual = true;
         vector<ll> stk;
-        stk.reserve(nums.size());
+        stk.reserve(nums.size()); //! Remember to reserve!
 
         for (int num : nums) {
             ll cur = num;
